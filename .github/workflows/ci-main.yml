@@ -11,5 +11,5 @@ jobs:
       appType: 'nodejs'
       appName: 'catalogue'
     secrets:
-      vault_token: ${{ secrets.vault_token }}
+      azuresecrets: ${{ secrets.azuresecrets }}
 
